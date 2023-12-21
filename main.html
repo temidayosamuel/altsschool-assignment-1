@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html"><h1>Application Form</h1></a>
+      <p>Fill in details</p>
+    </header>
+    <br />
+    <br />
+    <form>
+      <div>
+        <label for="fname" data-name="osaigbove">
+          First Name
+          <span>*</span>
+          <input
+            type="text"
+            name="fname"
+            required
+            placeholder="your first name"
+          />
+        </label>
+      </div>
+      <br />
+      <br />
+
+      <div>
+        <label for="lname" data-name="osaigbove">
+          Last Name
+          <span>*</span>
+          <input
+            type="text"
+            name="fname"
+            required
+            placeholder="your last name"
+          />
+        </label>
+      </div>
+      <br />
+      <br />
+
+      <div>
+        <label>Gender </label>
+        <span>*</span>
+
+        <select name="dropdown">
+          <optgroup>
+            Click to Select
+            <option value="" disabled selected hidden>select gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Non Binary</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <br />
+      <br />
+      <!-- <p>
+        Gender <span>*</span>
+       </p>
+       <input type="radio" name="gender" value="Male">
+       <label for="male">Male</label>
+       <br>
+    <input type="radio" name="gender" value="Female">
+    <label for="Fmale">Female</label>
+    <br>
+    <input type="radio" name="gender" value="Others">
+    <label for="non_b">Others</label>
+        <br> <br>
+-->
+      <div>
+        <label for="date">
+          Date of Birth
+          <span>*</span>
+          <input type="date" name="date" required />
+        </label>
+      </div>
+      <br />
+      <br />
+      <div>
+        <label for="email">
+          Email Address
+          <span>*</span>
+          <input type="email" name="email" required placeholder="email" />
+        </label>
+      </div>
+      <br />
+      <br />
+
+      <div>
+        <label for="education">
+          Education Level
+          <span>*</span>
+          <select name="dropdown">
+            <optgroup>
+              Click to Select
+              <option value="" disabled selected hidden>
+                Select Level of Education
+              </option>
+              <option>High School</option>
+              <option>Bsc</option>
+              <option>HND</option>
+              <option>OND</option>
+              <option>SSCE</option>
+              <option>Others</option>
+            </optgroup>
+          </select>
+        </label>
+      </div>
+      <br />
+      <br />
+
+      <label for="country">
+        Country
+        <span>*</span>
+        <select name="country" id="country">
+          <option value="" disabled selected hidden>
+            Select your counntry
+          </option>
+          <option>Bangladesh</option>
+          <option>Nigera</option>
+          <option>Ghana</option>
+        </select>
+      </label>
+      <br />
+      <br />
+
+      <div>
+        <label for="city">
+          State/City of residence
+          <span>*</span>
+          <input
+            type="text"
+            name="city"
+            required
+            placeholder="ennter your state residence"
+          />
+        </label>
+      </div>
+      <br />
+      <br />
+
+      <div>
+        <label for="employment">Employment Status</label>
+        <span>*</span>
+        <select name="dropdown">
+          <option value="">Employed</option>
+          <option>Unemployed</option>
+          <option>Sel-Employed</option>
+        </select>
+      </div>
+      <br />
+      <br />
+      <div>
+        <label for="numb">
+          Phone Number
+          <span>*</span>
+          <input type="number" placeholder="0814674568" />
+        </label>
+      </div>
+      <br />
+      <br />
+      <div>
+        <label for="sch"
+          >choose School<span>*</span>
+          <select name="dropdown">
+            <option value="" disabled selected hidden>School</option>
+            <option>School of Product</option>
+            <option>School of Data</option>
+            <option>School of Engineering</option>
+          </select>
+        </label>
+      </div>
+
+      <br />
+      <br />
+
+      <div>
+        <label for="code">
+          Scholarship discount code (optional)
+          <span>*</span>
+          <input type="text" name="fname" required placeholder="your code" />
+        </label>
+      </div>
+
+      <p>
+        Click to contune. I agree to <a href="#">Tearms of use</a> and i
+        acknowledge i have read the <a href="#">Privacy Policy</a>
+      </p>
+
+      <p>
+        <input type="submit" name="submit" value="Proceed" />
+      </p>
+
+      <h4>Already have an account <a href="/profile/index.html">Sign in</a></h4>
+    </form>
+  </body>
+</html>
